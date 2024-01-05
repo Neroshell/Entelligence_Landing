@@ -1,7 +1,7 @@
 /* Reset some default styles to ensure consistency across browsers */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Roboto:wght@100;300;500;700;900&display=swap');
 
 
 :root {
@@ -11,8 +11,8 @@
    
 }
 
-.w-100{
-  font-weight: 100;
+p{
+  font-weight: 300;
 } 
 
 .btn-primary {
@@ -47,6 +47,7 @@
   ul, ol {
     list-style: none;
   }
+
   
   /* Basic global styles for links */
   a {
@@ -54,31 +55,45 @@
     color: #1C1C1C;
   }
 
-  nav {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-
+  #navbarSupportedContent{
+   
+    width: 100%;
+    text-align: center;
+    transition: 1s linear;
+    color: white;
   }
-  
 
-  nav ul{
-    display: inline-flex;
-    gap: 50px;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    font-size: small;
+  .navbar-toggler{
+      color: #a44910 ;
+     
+  }
+
+  .navbar-brand span{
+
+    font-weight: 900;
+     font-size: 1.5rem;
+      margin-right: 70px;
+  }
+
+  .navbar-toggler-icon{
+    color: #f7eee9;
+  }
+
+ nav{
+  
+  background-color: #f7eee9;
+ }
+
  
-  
-   
-  }
 
+ 
   nav img {
-    width: 6%;
-   
+    width: 4%;
+    height: auto;
+  }
+  nav li{
+    padding: 8px 0 8px 0px;
   }
   
   .navbar-text{
@@ -87,9 +102,9 @@
     text-decoration: none;
    
   }
-  .hero{
-    
-  }
+
+  /*End of navBar */
+ 
   .hero p{
     font-size: 16px;
     line-height: 20px;
@@ -101,7 +116,7 @@
     line-height: 63px;
   }
   .section-one-row{
-    margin-top: 80px;
+    margin-top: 140px;
   }
 
 
@@ -158,6 +173,8 @@
     color: #f7eee9;
   }
 
+ 
+
   .button-2{
     display: inline-block;
     padding: 10px 50px;
@@ -194,12 +211,11 @@
   .section-2{
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
-     margin-top: 130px;
-      
-      box-shadow: #a44910 0px 22px 70px 4px;
-    
+     margin-top: 150px;
+    box-shadow: #1C1C1C 0px 5px 0px 0px;
+      background-color: #fdf8f5 !important;
+      padding-bottom: 100px;
   }
-
 
   .section-2-1{
 
@@ -218,13 +234,17 @@
     border-radius: 10px;
     will-change: transform;
     color: #1C1C1C;
-    box-shadow: #a44910 0px 5px 15px;
+    background-color: #f7eee9;
+    
   }
+
 
   .section-2-2 h4{
     margin-top: 40px;
   }
-
+  .section-2-2:hover{
+    background-color: white;
+  }
   .section-2-2:hover .material-symbols-outlined{
     background-color: #a44910;
     color: #f7eee9;
@@ -232,16 +252,118 @@
   }
 
   .material-symbols-outlined{
-    font-size: 70px;
+    font-size: 50px;
     color: rgba(0, 120, 255, 1);
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     text-align: center;
     padding-top: 15px;
     background-color: white;
     color: #a44910;
   }
+
+  .icon{
+    background-color: #a44910;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #f7eee9;
+  }
+
+  .icon:hover{
+    background-color: #f7eee9;
+    color: #a44910;
+  }
+  
+
+  .card{
+    border-radius: 20px;
+  }
+  .card img{
+      height: 320px; 
+      object-fit: cover;
+      border-radius: 20px;
+  }
+
+  .awesome-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background-color: #a44910;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+/* Add any additional styles as needed */
+.logo-box{
+
+  width: 100%;
+  height: 100px;
+ 
+}
+
+.logo-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section-4{
+  
+  background-color: #f7eee9;
+   border-top-left-radius: 200px;
+   box-shadow: #a44910 5px -5px 0px 0px;
+   margin-top: 200px;
+   padding-top: 100px;
+}
+.section-4 .row{
+  margin-top: 50px;
+}
+
+.section-5{
+  background-color: #fdf8f5 ;
+}
+.section-5 .container-fluid{
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+form {
+  width: 80%;
+}
+
+.custom-form{
+  background-color:#f7eee9; 
+  padding-top: 40px;
+  padding-bottom: 40px;
+   display: flex;
+    align-content: center; 
+   justify-content: center;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Custom style for focused input fields */
+.form-control:focus {
+  border-color: #a44910; /* Change the color to your desired color */
+  box-shadow: 0 0 0 0.1rem #a44910; /* Optional: Add a subtle box shadow */
+}
+/* Style for placeholder text */
+.form-floating input{
+  border-radius: 15px;
+}
+
+
+
  
 
   @keyframes africa {
@@ -257,10 +379,51 @@
   }
   
   
+  
   /* Responsive utility classes */
   @media screen and (max-width: 768px) {
     .container {
       width: 90%;
+      margin: 0 auto;
+    }
+
+    .navbar-brand span{
+
+      font-weight: 900;
+       font-size: 1.5rem;
+        margin-right: 120px;
+    }
+    nav img {
+      width: 5%;
+      height: auto;
+    }
+    .section-2-1{
+      margin: 0px auto;
+      margin-top: 100px;
+      
+    }
+    .section-2-2{
+      width: 100%;
+    
+    }
+    .section-one-col2{
+      
+      margin-top: 100px;
+    }
+  
+      .hero h1{
+        font-size: 40px;
+        line-height: normal;
+       
+      }
+      
+     
+      .hero-img-box{
+        width: 100%;
+        height: 500px;
+      }
+    .custom-form{
+      margin-top: 50px;
     }
   }
   
