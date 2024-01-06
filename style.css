@@ -378,10 +378,13 @@ form {
     }
   }
   
+  @media only screen and (max-width: 479px) {
+    
+  }
   
   
   /* Responsive utility classes */
-  @media screen and (max-width: 768px) {
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
       width: 90%;
       margin: 0 auto;
@@ -427,5 +430,16 @@ form {
     }
   }
   
+
+  
+  /* Styles for medium screens (480px to 767px) */
+  {
+    /* Your styles for medium screens go here */
+  }
+  
+  /* Styles for large screens (768px to 1023px) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your styles for large screens go here */
+  }
   /* Add more styles and components as needed for your project */
   
