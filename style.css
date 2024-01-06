@@ -34,7 +34,7 @@ p{
   
   /* Apply a sensible default font size and line height */
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monse', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     background-color: #f7eee9 ;
@@ -42,7 +42,7 @@ p{
   
   /* Apply a minimalistic style to improve readability */
   body, button, input, select, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   ul, ol {
     list-style: none;
@@ -378,13 +378,10 @@ form {
     }
   }
   
-  @media only screen and (max-width: 479px) {
-    
-  }
-  
+ 
   
   /* Responsive utility classes */
-  @media only screen and (min-width: 375px) and (max-width: 767px) {
+  @media only screen and (max-width: 412px) {
     .container {
       width: 90%;
       margin: 0 auto;
@@ -394,7 +391,7 @@ form {
 
       font-weight: 900;
        font-size: 1.5rem;
-        margin-right: 120px;
+        margin-right:100px;
     }
     nav img {
       width: 5%;
@@ -427,6 +424,7 @@ form {
       }
     .custom-form{
       margin-top: 50px;
+      font: ;
     }
   }
   
