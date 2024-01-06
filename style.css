@@ -384,7 +384,7 @@ form {
   
   
   /* Responsive utility classes */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  @media only screen and (min-width: 375px) and (max-width: 767px) {
     .container {
       width: 90%;
       margin: 0 auto;
