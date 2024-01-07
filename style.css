@@ -86,11 +86,16 @@ p{
  }
 
  
+.nav-image-box{
+  width: 20%;
+  margin-top: 10px
 
+} 
  
   nav img {
-    width: 4%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
   nav li{
     padding: 8px 0 8px 0px;
@@ -101,6 +106,10 @@ p{
     font-weight: 900;
     text-decoration: none;
    
+  }
+
+  .collapse{
+    margin-left: 40px;
   }
 
   /*End of navBar */
@@ -362,6 +371,26 @@ form {
   border-radius: 15px;
 }
 
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
 
 
  
@@ -381,7 +410,7 @@ form {
  
   
   /* Responsive utility classes */
-  @media only screen and (max-width: 412px) {
+  @media only screen and (max-width: 442px) {
     .container {
       width: 90%;
       margin: 0 auto;
@@ -393,10 +422,18 @@ form {
        font-size: 1.5rem;
         margin-right:100px;
     }
-    nav img {
-      width: 5%;
-      height: auto;
-    }
+    .nav-image-box{
+      width: 50%;
+     
+    } 
+     
+      nav img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border: 1px solid red;
+      }
+   
     .section-2-1{
       margin: 0px auto;
       margin-top: 100px;
@@ -424,16 +461,14 @@ form {
       }
     .custom-form{
       margin-top: 50px;
-      font: ;
+     
     }
   }
   
 
   
   /* Styles for medium screens (480px to 767px) */
-  {
-    /* Your styles for medium screens go here */
-  }
+ 
   
   /* Styles for large screens (768px to 1023px) */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
