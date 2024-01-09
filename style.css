@@ -445,6 +445,18 @@ li a:hover{
 font-size: 20px;
 }
 
+.terms::before {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #a44910; /* You can adjust the color and thickness as needed */
+  margin: 0px auto;
+  width: 70px;
+  position: relative;
+  top: 70px; /* You can adjust the width of the underline */
+}
+
+
+
 
 
 
@@ -534,7 +546,9 @@ font-size: 20px;
   .reserved-div{
       margin-top: 100px;
   }
-
+  .terms::before {
+    top: 50px; /* You can adjust the width of the underline */
+  }
   
   }
   
