@@ -1,0 +1,18 @@
+
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "ent_landing/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/ent_landing/$1",
+        "headers": { "cache-control": "s-maxage=31536000" }
+      }
+    ]
+  }
+  
