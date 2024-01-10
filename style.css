@@ -445,6 +445,18 @@ li a:hover{
 font-size: 20px;
 }
 
+/* Terms of Conditions */
+
+.terms{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.terms-width{
+  width: 60%;
+  margin: 0 auto;
+  
+}
 .terms::before {
   content: "";
   display: block;
@@ -453,6 +465,17 @@ font-size: 20px;
   width: 70px;
   position: relative;
   top: 70px; /* You can adjust the width of the underline */
+}
+
+.terms-details p{
+  margin: 0;
+  font-size: 13px;
+}
+
+.terms-details h3{
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 
@@ -549,6 +572,11 @@ font-size: 20px;
   .terms::before {
     top: 50px; /* You can adjust the width of the underline */
   }
+
+  .terms-width{
+    width: 80%;
+  
+  }
   
   }
   
@@ -597,6 +625,12 @@ font-size: 20px;
     .footer-image-box{
       margin: 0px;
       
+    }
+
+    .terms-width{
+      width: 70%;
+      margin: 0 auto;
+      border: 1px solid red;
     }
   } 
   
