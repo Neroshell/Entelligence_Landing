@@ -371,7 +371,7 @@ form {
   background-color: #1C1C1C;
   color: #f7eee9;
   padding-top: 100px;
-  height: 530px;
+  padding-bottom: 20px;
 }
 
 .footer-image-box{
@@ -554,8 +554,9 @@ font-size: 20px;
   .section-6{
     background-color: #1C1C1C;
     color: #f7eee9;
-    padding-top: 100px;
-    height: 1050px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+   
   }
 
   .footer-image-box{
@@ -619,7 +620,8 @@ font-size: 20px;
       background-color: #1C1C1C;
       color: #f7eee9;
       padding-top: 100px;
-      height: 620px;
+      padding-bottom: ;
+     
     }
 
     .footer-image-box{
